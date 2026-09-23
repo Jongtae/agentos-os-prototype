@@ -2,6 +2,8 @@
 
 [English](README.md) | [한국어](README.ko.md) | [日本語](README.ja.md) | [中文](README.zh.md)
 
+> **リポジトリ移行:** このリポジトリは旧 bootable/headless OS プロトタイプです。現在の主要な **Personal AgentOS** プロジェクトは [Jongtae/agentos](https://github.com/Jongtae/agentos) にあります。
+
 **agent-managed post-boot runtime を起動後の標準サーフェスにする、bootable で headless-first な OS プロトタイプです。**
 
 AgentOS は、起動後の標準インターフェイスがアプリで埋まったデスクトップではなく、managed agent runtime だったら OS はどう見えるのかを探る実験です。
@@ -75,8 +77,8 @@ ISO を起動することが実際の AgentOS concept demo です。repo から�
 ローカル ISO をビルドします。
 
 ```bash
-git clone git@github.com:Jongtae/agentos.git
-cd agentos
+git clone git@github.com:Jongtae/agentos-os-prototype.git
+cd agentos-os-prototype
 ./scripts/build_latest_agentos_iso.sh
 ```
 
@@ -115,8 +117,8 @@ Notes:
 VM を起動せずに runtime を確認または開発したい場合に使います。
 
 ```bash
-git clone git@github.com:Jongtae/agentos.git
-cd agentos
+git clone git@github.com:Jongtae/agentos-os-prototype.git
+cd agentos-os-prototype
 cp .env.example .env
 python3 src/main.py --doctor
 python3 src/main.py --no-tui
