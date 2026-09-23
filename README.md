@@ -2,6 +2,8 @@
 
 [English](README.md) | [한국어](README.ko.md) | [日本語](README.ja.md) | [中文](README.zh.md)
 
+> **Repository migration:** this is the former bootable/headless OS prototype. The primary **Personal AgentOS** project now lives at [Jongtae/agentos](https://github.com/Jongtae/agentos).
+
 **A bootable, headless-first OS prototype with an agent-managed post-boot runtime.**
 
 AgentOS explores what an operating system looks like when the default interface
@@ -28,8 +30,8 @@ Docker is the easiest way to try the AgentOS runtime today. The bootable ISO
 remains the long-term OS form factor.
 
 ```bash
-git clone git@github.com:Jongtae/agentos.git
-cd agentos
+git clone git@github.com:Jongtae/agentos-os-prototype.git
+cd agentos-os-prototype
 cp .env.example .env
 docker compose up
 ```
