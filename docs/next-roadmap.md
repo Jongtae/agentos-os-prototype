@@ -84,7 +84,7 @@ The detailed Phase 2 roadmap is tracked in
 
 ## Completed Completion Epics
 
-- `docker-approval-center-completion-snapshot-epic` — [EPIC: Stage 3 / Phase 2 Docker Approval Center completion snapshot](https://github.com/Jongtae/agentos/issues/329)
+- `docker-approval-center-completion-snapshot-epic` — [EPIC: Stage 3 / Phase 2 Docker Approval Center completion snapshot](https://github.com/Jongtae/agentos-os-prototype/issues/329)
   - Milestone: Docker Approval Center completion snapshot
   - Completion goal: expose a customer-facing Docker Approval Center completion snapshot that summarizes setup, confirmation, observed-proof, and blocked approval requirements, validation gates, and external/live non-claims without claiming approval execution, external writes, destructive execution, live provider proof, VM/ISO proof, release proof, mutation proof, or hardware attestation.
   - Validation plan: `scripts/smoke_docker_approval_center_snapshot.sh`, `scripts/smoke_docker_product_layer_completion.sh`, `scripts/smoke_docker_runtime_preview_python.sh`, `docker compose config`, the Phase 2 golden demo runner, roadmap direction judge, cleanup policy, and PR CI.
@@ -96,7 +96,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blockers: approval execution, external write execution, destructive action execution, live provider execution, VM/ISO approval ownership, release proof, mutation proof, and hardware attestation remain unclaimed until observed evidence exists.
   - Advances: capability ownership, mediation cost reduction, Docker-first public usability, runtime proof truthfulness, and OS-native runtime defaults.
 
-- `docker-capability-store-completion-snapshot-epic` — [EPIC: Stage 3 / Phase 2 Docker Capability Store completion snapshot](https://github.com/Jongtae/agentos/issues/323)
+- `docker-capability-store-completion-snapshot-epic` — [EPIC: Stage 3 / Phase 2 Docker Capability Store completion snapshot](https://github.com/Jongtae/agentos-os-prototype/issues/323)
   - Milestone: Docker Capability Store completion snapshot
   - Completion goal: expose a customer-facing Docker Capability Store completion snapshot that summarizes safe local capabilities, confirmation-needed paths, blocked destructive actions, validation gates, and external/live non-claims without claiming destructive execution, external writes, live provider proof, VM/ISO proof, release proof, mutation proof, or hardware attestation.
   - Validation plan: `scripts/smoke_docker_capability_store_snapshot.sh`, `scripts/smoke_docker_product_layer_completion.sh`, `scripts/smoke_docker_runtime_preview_python.sh`, `docker compose config`, the Phase 2 golden demo runner, roadmap direction judge, cleanup policy, and PR CI.
@@ -108,7 +108,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blockers: external write execution, destructive action execution, live provider execution, VM/ISO capability ownership, release proof, mutation proof, and hardware attestation remain unclaimed until observed evidence exists.
   - Advances: capability ownership, mediation cost reduction, Docker-first public usability, runtime proof truthfulness, and OS-native runtime defaults.
 
-- `docker-activity-timeline-completion-snapshot-epic` — [EPIC: Stage 3 / Phase 2 Docker Activity Timeline completion snapshot](https://github.com/Jongtae/agentos/issues/317)
+- `docker-activity-timeline-completion-snapshot-epic` — [EPIC: Stage 3 / Phase 2 Docker Activity Timeline completion snapshot](https://github.com/Jongtae/agentos-os-prototype/issues/317)
   - Milestone: Docker Activity Timeline completion snapshot
   - Completion goal: expose a customer-facing Docker Activity Timeline completion snapshot that summarizes narrated runtime stages, user-visible records, validation gates, and external/live non-claims without claiming external app execution, live provider proof, browser execution, or VM/ISO proof.
   - Validation plan: `scripts/smoke_docker_activity_timeline_snapshot.sh`, `scripts/smoke_docker_product_layer_completion.sh`, `scripts/smoke_docker_runtime_preview_python.sh`, `docker compose config`, the Phase 2 golden demo runner, roadmap direction judge, cleanup policy, and PR CI.
@@ -120,7 +120,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blockers: external app execution, live provider activity, browser activity proof, VM/ISO runtime activity, release proof, mutation proof, and hardware attestation remain unclaimed until observed evidence exists.
   - Advances: runtime proof truthfulness, OS-native runtime defaults, recovery, and customer-understandable activity narration.
 
-- `docker-work-inbox-completion-snapshot-epic` — [EPIC: Stage 3 / Phase 2 Docker Work Inbox completion snapshot](https://github.com/Jongtae/agentos/issues/311)
+- `docker-work-inbox-completion-snapshot-epic` — [EPIC: Stage 3 / Phase 2 Docker Work Inbox completion snapshot](https://github.com/Jongtae/agentos-os-prototype/issues/311)
   - Milestone: Docker Work Inbox completion snapshot
   - Completion goal: expose a customer-facing Docker Work Inbox completion snapshot that summarizes read-first sources, safe workflows, validation gates, mutation boundaries, and live-proof blockers without claiming live OAuth, browser-default behavior, external mutations, production sync, or user Maildir proof.
   - Validation plan: `scripts/smoke_docker_work_inbox_snapshot.sh`, `scripts/smoke_docker_product_layer_completion.sh`, `scripts/smoke_docker_runtime_preview_python.sh`, `docker compose config`, the Phase 2 golden demo runner, roadmap direction judge, cleanup policy, and PR CI.
@@ -132,7 +132,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blockers: live Gmail OAuth, live Calendar OAuth, observed user Maildir proof, external mutations, production sync, browser-default behavior, and VM/ISO proof remain unclaimed until observed evidence exists.
   - Advances: capability ownership, mediation cost reduction, Docker-first public usability, runtime proof truthfulness, and OS-native runtime defaults.
 
-- `docker-runtime-home-completion-snapshot-epic` — [EPIC: Stage 3 / Phase 2 Docker runtime home completion snapshot](https://github.com/Jongtae/agentos/issues/305)
+- `docker-runtime-home-completion-snapshot-epic` — [EPIC: Stage 3 / Phase 2 Docker runtime home completion snapshot](https://github.com/Jongtae/agentos-os-prototype/issues/305)
   - Milestone: Docker runtime home completion snapshot
   - Completion goal: expose a customer-facing Runtime Home completion snapshot that summarizes what the Docker Product Layer proves, which validation gates support it, which review surfaces are ready, and which stronger proof claims remain blocked without claiming VM/ISO, live OAuth, live browser, release, external mutation, Docker daemon observed, or hardware attestation proof.
   - Validation plan: `scripts/smoke_docker_runtime_home_snapshot.sh`, `scripts/smoke_docker_product_layer_completion.sh`, `scripts/smoke_docker_runtime_preview_python.sh`, `docker compose config`, the Phase 2 golden demo runner, roadmap direction judge, cleanup policy, and PR CI.
@@ -144,7 +144,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blockers: Docker daemon observed proof, VM/ISO boot/rejoin proof, live OAuth, live browser evidence, release artifacts/signing, external mutation proof, and hardware attestation remain unclaimed until observed evidence exists.
   - Advances: Docker-first public usability, runtime proof truthfulness, recovery, and OS-native runtime defaults.
 
-- `docker-session-report-epic` — [EPIC: Stage 3 / Phase 2 Docker session report](https://github.com/Jongtae/agentos/issues/299)
+- `docker-session-report-epic` — [EPIC: Stage 3 / Phase 2 Docker session report](https://github.com/Jongtae/agentos-os-prototype/issues/299)
   - Milestone: Docker session report
   - Completion goal: expose a customer-facing Docker Session Report that summarizes the current runtime state, recent activity, Product Layer proof sources, recovery drills, and blocked stronger-proof claims in one Docker-safe report without claiming boot, VM/ISO, live OAuth, live browser, release, mutation, or hardware attestation proof.
   - Validation plan: `scripts/smoke_docker_session_report.sh`, `scripts/smoke_docker_product_layer_completion.sh`, `scripts/smoke_docker_runtime_preview_python.sh`, `docker compose config`, the Phase 2 golden demo runner, roadmap direction judge, cleanup policy, and PR CI.
@@ -156,7 +156,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blockers: Docker daemon observed proof, VM/ISO boot/rejoin proof, live OAuth, live browser evidence, release artifacts/signing, external mutation proof, and hardware attestation remain unclaimed until observed evidence exists.
   - Advances: Docker-first public usability, runtime proof truthfulness, recovery, and OS-native runtime defaults.
 
-- `docker-recovery-drill-board-epic` — [EPIC: Stage 3 / Phase 2 Docker recovery drill board](https://github.com/Jongtae/agentos/issues/293)
+- `docker-recovery-drill-board-epic` — [EPIC: Stage 3 / Phase 2 Docker recovery drill board](https://github.com/Jongtae/agentos-os-prototype/issues/293)
   - Milestone: Docker recovery drill board
   - Completion goal: expose a customer-facing Docker Recovery Drill Board that turns runtime restart, health, recovery, evidence refresh, and blocked VM/ISO rejoin paths into repeatable Docker-safe drills without claiming boot, VM/ISO, live OAuth, live browser, release, mutation, or hardware attestation proof.
   - Validation plan: `scripts/smoke_docker_recovery_drill_board.sh`, `scripts/smoke_docker_product_layer_completion.sh`, `scripts/smoke_docker_runtime_preview_python.sh`, `docker compose config`, the Phase 2 golden demo runner, roadmap direction judge, cleanup policy, and PR CI.
@@ -168,7 +168,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blockers: Docker daemon observed proof, VM/ISO boot/rejoin proof, live OAuth, live browser evidence, release artifacts/signing, external mutation proof, and hardware attestation remain unclaimed until observed evidence exists.
   - Advances: Docker-first public usability, runtime recovery, proof truthfulness, and OS-native runtime defaults.
 
-- `docker-observed-proof-request-board-epic` — [EPIC: Stage 3 / Phase 2 Docker observed proof request board](https://github.com/Jongtae/agentos/issues/287)
+- `docker-observed-proof-request-board-epic` — [EPIC: Stage 3 / Phase 2 Docker observed proof request board](https://github.com/Jongtae/agentos-os-prototype/issues/287)
   - Milestone: Docker observed proof request board
   - Completion goal: expose a customer-readable Docker Observed Proof Request Board that translates explicit proof blockers into concrete evidence requests, requester actions, validation commands, redaction rules, and promotion boundaries without accepting secrets or claiming live, VM, release, browser, mutation, or attestation proof.
   - Validation plan: `scripts/smoke_docker_observed_proof_request_board.sh`, `scripts/smoke_docker_product_layer_completion.sh`, `scripts/smoke_docker_runtime_preview_python.sh`, `docker compose config`, the Phase 2 golden demo runner, roadmap direction judge, cleanup policy, and PR CI.
@@ -180,7 +180,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blockers: Docker daemon observed proof, VM/ISO boot/rejoin proof, live OAuth, live browser evidence, release artifacts/signing, external mutation proof, and hardware attestation remain unclaimed until observed evidence exists.
   - Advances: Docker-first public usability, runtime proof truthfulness, recovery, capability ownership, OS-native runtime defaults.
 
-- `docker-next-work-board-epic` — [EPIC: Stage 3 / Phase 2 Docker next work board](https://github.com/Jongtae/agentos/issues/281)
+- `docker-next-work-board-epic` — [EPIC: Stage 3 / Phase 2 Docker next work board](https://github.com/Jongtae/agentos-os-prototype/issues/281)
   - Milestone: Docker next work board
   - Completion goal: expose a customer-readable Docker Next Work Board that separates completed Docker-local Product Layer proof, safe next implementation candidates, and stronger observed-proof blockers without promoting Docker proof into VM/ISO, live OAuth, browser, release, mutation, or hardware-attestation claims.
   - Validation plan: `scripts/smoke_docker_next_work_board.sh`, `scripts/smoke_docker_product_layer_completion.sh`, `scripts/smoke_docker_runtime_preview_python.sh`, `docker compose config`, the Phase 2 golden demo runner, roadmap direction judge, cleanup policy, and PR CI.
@@ -192,7 +192,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blockers: Docker daemon observed proof, VM/ISO boot/rejoin proof, live OAuth, live browser evidence, release artifacts/signing, external mutation proof, and hardware attestation remain unclaimed until observed evidence exists.
   - Advances: Docker-first public usability, runtime proof truthfulness, recovery, capability ownership, OS-native runtime defaults.
 
-- `docker-public-preview-readiness-board-epic` — [EPIC: Stage 3 / Phase 2 Docker public preview readiness board](https://github.com/Jongtae/agentos/issues/274)
+- `docker-public-preview-readiness-board-epic` — [EPIC: Stage 3 / Phase 2 Docker public preview readiness board](https://github.com/Jongtae/agentos-os-prototype/issues/274)
   - Milestone: Docker public preview readiness board
   - Completion goal: make public preview operations customer-readable in Docker by showing which Docker-local preview claims are share-ready, which local gates should be rerun before a demo, which public preview contract governs promotion, and which VM/ISO, live OAuth, browser, release, mutation, and hardware attestation claims remain blocked until observed evidence exists.
   - Exit condition: completed by P2-117 through P2-118 after `/api/preview-readiness`, the browser Preview Readiness Board panel, README, TASKS, Docker acceptance, roadmap, focused preview readiness gate, Product Layer completion gate, runtime preview Python smoke, compose config, cleanup policy, and CI checks all preserve Docker-safe public preview go/no-go guidance without stronger proof claims.
@@ -203,7 +203,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blockers: Docker daemon observed proof, VM/ISO boot/rejoin proof, live OAuth, live browser evidence, release artifacts/signing, external mutation proof, and hardware attestation remain unclaimed until observed evidence exists.
   - Advances: Docker-first public usability, runtime proof truthfulness, recovery, OS-native runtime defaults.
 
-- `docker-release-trust-customer-checklist-epic` — [EPIC: Stage 3 / Phase 2 Docker release trust customer checklist](https://github.com/Jongtae/agentos/issues/267)
+- `docker-release-trust-customer-checklist-epic` — [EPIC: Stage 3 / Phase 2 Docker release trust customer checklist](https://github.com/Jongtae/agentos-os-prototype/issues/267)
   - Milestone: Docker release trust customer checklist
   - Completion goal: make release trust decisions customer-readable in Docker by showing which local preflight language is share-ready, which release artifact/checksum/signing/upload/VM/ISO claims are blocked, and which observed evidence is required before stronger release trust claims can be promoted.
   - Exit condition: completed by P2-115 through P2-116 after `/api/release-trust`, the browser Release Trust Panel, release readiness checklist items, customer decisions, README, TASKS, roadmap, Docker acceptance, `scripts/smoke_docker_release_trust_panel.sh`, `scripts/smoke_docker_product_layer_completion.sh`, `scripts/smoke_docker_runtime_preview_python.sh`, `docker compose config`, cleanup policy, and CI checks all preserve Docker-safe release trust decisions without stronger proof claims.
@@ -214,7 +214,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blockers: real release artifact, published checksum, signing evidence or unsigned-preview statement, secret-free artifact review, observed VM/ISO release proof, live browser evidence, external mutation proof, and hardware attestation remain unclaimed until observed evidence exists.
   - Advances: Docker-first public usability, runtime proof truthfulness, recovery, OS-native runtime defaults.
 
-- `docker-product-layer-map-epic` — [EPIC: Stage 3 / Phase 2 Docker Product Layer map](https://github.com/Jongtae/agentos/issues/257)
+- `docker-product-layer-map-epic` — [EPIC: Stage 3 / Phase 2 Docker Product Layer map](https://github.com/Jongtae/agentos-os-prototype/issues/257)
   - Milestone: Docker Product Layer map
   - Completion goal: give customers one ordered Docker-safe navigation surface and reviewer-specific routes that explain where to start, where safe work appears, where evidence and handoff live, which reviewer should inspect which surfaces, and which proof/trust claims remain blocked until observed evidence exists.
   - Exit condition: completed by P2-112 through P2-114 after `/api/product-map`, the browser Product Layer Map panel, reviewer routes, README, TASKS, roadmap, Docker acceptance, `scripts/smoke_docker_product_layer_map.sh`, `scripts/smoke_docker_product_layer_completion.sh`, `scripts/smoke_docker_runtime_preview_python.sh`, `docker compose config`, cleanup policy, and CI checks all preserve Docker-safe customer navigation without stronger proof claims.
@@ -226,7 +226,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blockers: Docker daemon observed proof, VM/ISO boot/rejoin proof, live OAuth, live browser evidence, release artifacts/signing, external mutation proof, and hardware attestation remain unclaimed until observed evidence exists.
   - Advances: Docker-first public usability, runtime proof truthfulness, recovery, OS-native runtime defaults.
 
-- `docker-proof-promotion-center-epic` — [EPIC: Stage 3 / Phase 2 Docker proof promotion center](https://github.com/Jongtae/agentos/issues/247)
+- `docker-proof-promotion-center-epic` — [EPIC: Stage 3 / Phase 2 Docker proof promotion center](https://github.com/Jongtae/agentos-os-prototype/issues/247)
   - Milestone: Docker proof promotion center
   - Completion goal: give customers one Docker-safe claim-promotion decision surface that explains which Docker-local Product Layer claims can be described now, which validation commands and source surfaces should be shared, which Docker daemon, VM/ISO, live OAuth, browser, release, mutation, and attestation claims require sanitized observed evidence, and which source surfaces support each decision.
   - Exit condition: completed by P2-109 through P2-111 after `/api/proof-promotion`, the browser Proof Promotion Center panel, the Proof Sharing Checklist, README, TASKS, roadmap, Docker acceptance, `scripts/smoke_docker_proof_promotion_center.sh`, `scripts/smoke_docker_product_layer_completion.sh`, `scripts/smoke_docker_runtime_preview_python.sh`, `docker compose config`, cleanup policy, and CI checks all preserve Docker-local claim promotion without automatic stronger-claim promotion.
@@ -238,7 +238,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blockers: Docker daemon observed proof, VM/ISO boot/rejoin proof, live OAuth, live browser evidence, release artifacts/signing, external mutation proof, and hardware attestation remain unclaimed until observed evidence exists.
   - Advances: Docker-first public usability, runtime proof truthfulness, recovery, OS-native runtime defaults.
 
-- `docker-customer-handoff-bundle-epic` — [EPIC: Stage 3 / Phase 2 Docker customer handoff bundle](https://github.com/Jongtae/agentos/issues/234)
+- `docker-customer-handoff-bundle-epic` — [EPIC: Stage 3 / Phase 2 Docker customer handoff bundle](https://github.com/Jongtae/agentos-os-prototype/issues/234)
   - Milestone: Docker customer handoff bundle
   - Completion goal: give customers one Docker-safe handoff path that explains how to run the preview, which Product Layer surfaces to inspect first, which checklist steps to follow, which validation commands reproduce local proof, which proof packet sources support the claims, which share-safe report sections can be handed to reviewers, and which observed-proof blockers remain before stronger VM/ISO, live OAuth, browser, release, mutation, or hardware attestation claims can be promoted.
   - Validation plan: `scripts/smoke_docker_customer_handoff_bundle.sh`, `scripts/smoke_docker_product_layer_completion.sh`, `scripts/smoke_docker_runtime_preview_python.sh`, `docker compose config`, and the Phase 2 golden demo runner.
@@ -252,7 +252,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blockers: VM/ISO boot/rejoin proof, live OAuth, live browser evidence, release artifacts/signing, Docker daemon observed proof, external mutation proof, and hardware attestation remain unclaimed until observed evidence exists.
   - Advances: Docker-first public usability, runtime proof truthfulness, recovery, OS-native runtime defaults.
 
-- `docker-customer-proof-packet-epic` — [EPIC: Stage 3 / Phase 2 Docker customer proof packet](https://github.com/Jongtae/agentos/issues/227)
+- `docker-customer-proof-packet-epic` — [EPIC: Stage 3 / Phase 2 Docker customer proof packet](https://github.com/Jongtae/agentos-os-prototype/issues/227)
   - Milestone: Docker customer proof packet
   - Completion goal: package Docker-local Product Layer proof into a customer-readable packet that summarizes completed local claims, validation commands, proof sources, explicit non-claims, and next observed-proof blockers without promoting Docker into VM/ISO, live OAuth, browser, release, mutation, or hardware attestation proof.
   - Exit condition: completed by P2-102 through P2-104 after `/api/proof-packet`, the browser Customer Proof Packet panel with readiness checks, README, TASKS, roadmap, Docker acceptance, `scripts/smoke_docker_customer_proof_packet.sh`, `scripts/smoke_docker_product_layer_completion.sh`, `scripts/smoke_docker_runtime_preview_python.sh`, `docker compose config`, cleanup policy, and the Phase 2 golden demo runner all preserve completed Docker-local claims, validation commands, proof sources, explicit non-claims, and disabled automatic claim promotion.
@@ -264,7 +264,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blockers: VM/ISO boot/rejoin proof, live OAuth, live browser evidence, release artifacts/signing, Docker daemon observed proof, external mutation proof, and hardware attestation remain unclaimed until observed evidence exists.
   - Advances: Docker-first public usability, runtime proof truthfulness, recovery, OS-native runtime defaults.
 
-- `docker-guided-product-layer-demo-journey-epic` — [EPIC: Stage 3 / Phase 2 Docker guided Product Layer demo journey](https://github.com/Jongtae/agentos/issues/218)
+- `docker-guided-product-layer-demo-journey-epic` — [EPIC: Stage 3 / Phase 2 Docker guided Product Layer demo journey](https://github.com/Jongtae/agentos-os-prototype/issues/218)
   - Milestone: Docker guided Product Layer demo journey
   - Completion goal: turn the completed Docker Product Layer surfaces into a customer-readable guided demo path that explains what to inspect first, what proof has been observed locally, and which VM/ISO, live OAuth, browser, release, mutation, and hardware attestation claims remain blocked.
   - Exit condition: completed by P2-98 through P2-101 after `/api/demo-journey`, the browser Guided Demo Journey panel, README, TASKS, roadmap, Docker acceptance, `scripts/smoke_docker_guided_demo_journey.sh`, `scripts/smoke_docker_product_layer_completion.sh`, `scripts/smoke_docker_runtime_preview_python.sh`, `docker compose config`, cleanup policy, and the Phase 2 golden demo runner all preserve the same customer path, expected outcomes, completion summary, and proof non-claims.
@@ -277,7 +277,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blockers: VM/ISO boot/rejoin proof, live OAuth, live browser evidence, release artifacts/signing, Docker daemon observed proof, and hardware attestation remain unclaimed until observed evidence exists.
   - Advances: Docker-first public usability, runtime proof truthfulness, OS-native runtime defaults.
 
-- `docker-first-customer-onboarding-proof-epic` — [EPIC: Stage 3 / Phase 2 Docker-first customer onboarding proof](https://github.com/Jongtae/agentos/issues/209)
+- `docker-first-customer-onboarding-proof-epic` — [EPIC: Stage 3 / Phase 2 Docker-first customer onboarding proof](https://github.com/Jongtae/agentos-os-prototype/issues/209)
   - Milestone: Docker-first AgentOS runtime preview
   - Completion goal: keep the public README quickstart, Docker acceptance path, preview operations contract, roadmap state, and task state aligned so a customer can try the Product Layer through Docker without confusing Docker proof for VM/ISO, live OAuth, browser, release, mutation, or attestation proof.
   - Exit condition: completed by P2-94 through P2-97 after README, Docker acceptance, public preview operations, TASKS, roadmap, Product Layer surfaces, `scripts/smoke_docker_customer_onboarding_quickstart.sh`, `scripts/smoke_docker_onboarding_status_contract.sh`, `scripts/smoke_docker_product_layer_completion.sh`, `scripts/smoke_docker_runtime_preview_python.sh`, `docker compose config`, and the Phase 2 golden demo runner all point to the same Docker-first public try path while preserving live OAuth, VM/ISO, browser, release, external mutation, and hardware attestation non-claims.
@@ -290,7 +290,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blockers: VM/ISO boot/rejoin proof, live OAuth, live browser evidence, release artifacts/signing, Docker daemon observed proof, and hardware attestation remain unclaimed until observed evidence exists.
   - Advances: Docker-first public usability, runtime proof truthfulness, OS-native runtime defaults.
 
-- `broader-app-inbox-workflow-promotion-epic` — [EPIC: Broader app inbox workflow promotion](https://github.com/Jongtae/agentos/issues/184)
+- `broader-app-inbox-workflow-promotion-epic` — [EPIC: Broader app inbox workflow promotion](https://github.com/Jongtae/agentos-os-prototype/issues/184)
   - Milestone: Phase 2: Local-first Codex runtime loop
   - Completion goal: define and smoke-test the broader app/inbox workflow promotion gate so AgentOS can choose the next inbox/app capability from the graduation registry without expanding browser automation or external app mediation as the default path.
   - Exit condition: completed by `docs/architecture/inbox-workflow-promotion-boundary.md`, `scripts/smoke_inbox_workflow_promotion_boundary.sh`, golden runner integration, registry linkage, Docker Product Layer surfaces from P2-83 through P2-92, `scripts/smoke_docker_product_layer_completion.sh`, and README/TASKS/roadmap updates preserving local/mock proof, user-owned records, live-proof blockers, mutation non-claims, and browser non-default behavior.
@@ -310,7 +310,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blockers: live Gmail/Calendar OAuth, real user Maildir proof, browser acceptance evidence, production sync, retention/compliance behavior, and external mutations remain unclaimed until observed proof and later permission models exist.
   - Advances: capability ownership, mediation cost reduction, OS-native runtime defaults, runtime proof truthfulness.
 
-- `browser-fallback-observed-proof-acceptance-epic` — [EPIC: Browser fallback observed proof acceptance](https://github.com/Jongtae/agentos/issues/179)
+- `browser-fallback-observed-proof-acceptance-epic` — [EPIC: Browser fallback observed proof acceptance](https://github.com/Jongtae/agentos-os-prototype/issues/179)
   - Milestone: Phase 2: Local-first Codex runtime loop
   - Completion goal: define and smoke-test a browser fallback observed-proof acceptance pack so AgentOS can accept a future user-approved browser fallback run without making browser automation the default runtime path or claiming unobserved live browser proof.
   - Exit condition: completed by `docs/acceptance/browser-fallback-observed-acceptance.md`, `scripts/kernel_browser_fallback_observed_acceptance.py`, `scripts/smoke_browser_fallback_observed_acceptance_pack.sh`, golden runner integration, and README/TASKS/roadmap updates preserving browser fallback non-default behavior, mutation non-claims, and blocked/no-observed proof capture.
@@ -319,7 +319,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blockers: real live browser fallback proof requires an explicit user-approved browser session and sanitized observed evidence; authenticated sites, destructive actions, and broad browser replacement remain unclaimed.
   - Advances: mediation cost reduction, capability ownership, OS-native runtime defaults, runtime proof truthfulness.
 
-- `maildir-inbox-intake-proof-epic` — [EPIC: Maildir inbox intake proof boundary](https://github.com/Jongtae/agentos/issues/174)
+- `maildir-inbox-intake-proof-epic` — [EPIC: Maildir inbox intake proof boundary](https://github.com/Jongtae/agentos-os-prototype/issues/174)
   - Milestone: Phase 2: Local-first Codex runtime loop
   - Completion goal: define and smoke-test the Maildir inbox intake proof boundary so broader app/inbox ecosystem work can advance through a user-owned local inbox path before expanding external app or browser mediation.
   - Exit condition: completed by `docs/architecture/maildir-inbox-intake-proof-boundary.md`, `scripts/smoke_maildir_inbox_intake_proof_boundary.sh`, docs index linkage, golden runner integration, and README/TASKS/roadmap updates preserving observed user Maildir proof, external mailbox mutation, production sync, retention/compliance, and full app ecosystem non-claims.
@@ -328,7 +328,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blockers: observed user Maildir proof requires a real user-provided Maildir path and sanitized evidence; external mailbox mutations, production sync, retention/compliance behavior, and full app ecosystem replacement remain out of scope until future proof exists.
   - Advances: capability ownership, mediation cost reduction, OS-native runtime defaults, runtime proof truthfulness.
 
-- `calendar-live-adapter-candidate-epic` — [EPIC: Calendar live read-only adapter candidate](https://github.com/Jongtae/agentos/issues/169)
+- `calendar-live-adapter-candidate-epic` — [EPIC: Calendar live read-only adapter candidate](https://github.com/Jongtae/agentos-os-prototype/issues/169)
   - Milestone: Phase 2: Local-first Codex runtime loop
   - Completion goal: define the Calendar live read-only adapter candidate boundary so AgentOS can move from fixture-backed Calendar proof toward a future OAuth-backed read-only adapter without claiming live account proof or allowing mutations before tester evidence exists.
   - Exit condition: completed by `docs/architecture/calendar-live-adapter-candidate-boundary.md`, `scripts/smoke_calendar_live_adapter_candidate_boundary.sh`, docs index linkage, golden runner integration, and README/TASKS/roadmap updates preserving live Calendar OAuth, observed account proof, and create/update/delete/invite/cancel mutation non-claims.
@@ -337,7 +337,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blockers: live Calendar OAuth requires explicit tester credentials, a live read-only adapter run, and sanitized observed proof; Calendar mutations remain out of scope until a future confirmation and mutation model exists.
   - Advances: capability ownership, mediation cost reduction, OS-native runtime defaults, runtime proof truthfulness.
 
-- `calendar-live-readonly-acceptance-pack-epic` — [EPIC: Calendar live read-only acceptance pack](https://github.com/Jongtae/agentos/issues/164)
+- `calendar-live-readonly-acceptance-pack-epic` — [EPIC: Calendar live read-only acceptance pack](https://github.com/Jongtae/agentos-os-prototype/issues/164)
   - Milestone: Phase 2: Local-first Codex runtime loop
   - Completion goal: define a manual Calendar live read-only acceptance pack and automated blocker capture path so future tester OAuth runs can promote Calendar proof without claiming live OAuth or mutations today.
   - Exit condition: completed by `docs/acceptance/calendar-live-readonly-acceptance.md`, `scripts/kernel_calendar_live_acceptance.py`, `scripts/smoke_calendar_live_acceptance_pack.sh`, golden runner integration, and README/TASKS/roadmap updates preserving live Calendar OAuth, observed account proof, and create/update/delete/invite/cancel mutation non-claims.
@@ -346,7 +346,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blockers: live Calendar OAuth requires explicit tester credentials, a live adapter run, and sanitized observed proof; Calendar mutations remain out of scope until a later confirmed mutation model exists.
   - Advances: capability ownership, mediation cost reduction, OS-native runtime defaults, runtime proof truthfulness.
 
-- `vm-iso-observed-proof-status-epic` — [EPIC: VM/ISO observed proof status surface](https://github.com/Jongtae/agentos/issues/159)
+- `vm-iso-observed-proof-status-epic` — [EPIC: VM/ISO observed proof status surface](https://github.com/Jongtae/agentos-os-prototype/issues/159)
   - Milestone: Phase 2: Local-first Codex runtime loop
   - Completion goal: surface VM/ISO observed-proof preflight readiness and blocker state in the user-testable runtime status path without claiming a VM boot, reboot/recovery, or managed runtime rejoin was observed.
   - Exit condition: completed by `agentos-vm-iso-proof-preflight.v1` attached to `phase2-run --message "status"`, VM/ISO preflight/CLI/golden smoke coverage, and README/TASKS/roadmap updates preserving observed VM boot, reboot/recovery, managed runtime rejoin, destructive action, and ISO freshness non-claims.
@@ -355,7 +355,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blockers: observed VM/ISO proof requires a real VM run and sanitized evidence attached to a lifecycle issue; ISO build freshness, boot, reboot/recovery, and managed runtime rejoin remain unclaimed until observed.
   - Advances: OS-native runtime defaults, recovery, runtime proof truthfulness.
 
-- `gmail-readonly-live-readiness-status-epic` — [EPIC: Gmail live read-only readiness status](https://github.com/Jongtae/agentos/issues/154)
+- `gmail-readonly-live-readiness-status-epic` — [EPIC: Gmail live read-only readiness status](https://github.com/Jongtae/agentos-os-prototype/issues/154)
   - Milestone: Phase 2: Local-first Codex runtime loop
   - Completion goal: surface Gmail read-only live readiness in the user-testable runtime status path without claiming live OAuth proof or executing send/delete/archive mutations.
   - Exit condition: completed by `agentos-gmail-status.v1` attached to `phase2-run --message "status"`, Gmail missing/live-blocked/CLI/golden smoke coverage, and README/TASKS/roadmap updates preserving live OAuth, account proof, token exposure, and mutation non-claims.
@@ -364,7 +364,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blockers: live Gmail OAuth requires explicit tester credentials and an observed read-only run; send/delete/archive and Gmail mutation support remain out of scope.
   - Advances: capability ownership, mediation cost reduction, OS-native runtime defaults, runtime proof truthfulness.
 
-- `calendar-readonly-live-adapter-readiness-epic` — [EPIC: Calendar read-only live adapter readiness](https://github.com/Jongtae/agentos/issues/149)
+- `calendar-readonly-live-adapter-readiness-epic` — [EPIC: Calendar read-only live adapter readiness](https://github.com/Jongtae/agentos-os-prototype/issues/149)
   - Milestone: Phase 2: Local-first Codex runtime loop
   - Completion goal: move Calendar from a fixture-backed contract toward a read-only live adapter candidate without claiming live OAuth proof or mutating calendar behavior.
   - Exit condition: completed by `agentos-calendar-readonly-status.v1` attached to `phase2-run --message "status"`, Calendar fixture/CLI/golden smoke coverage, and README/TASKS/roadmap updates preserving live OAuth and mutation non-claims.
@@ -373,7 +373,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blockers: live Calendar OAuth requires explicit tester credentials and a later live adapter design; Calendar mutation support remains out of scope until a future confirmed mutation model exists.
   - Advances: capability ownership, mediation cost reduction, OS-native runtime defaults, runtime proof truthfulness.
 
-- `capability-graduation-registry-epic` — [EPIC: Capability graduation registry](https://github.com/Jongtae/agentos/issues/144)
+- `capability-graduation-registry-epic` — [EPIC: Capability graduation registry](https://github.com/Jongtae/agentos-os-prototype/issues/144)
   - Milestone: Phase 2: Local-first Codex runtime loop
   - Completion goal: define how repeated browser fallback, inbox/app, calendar, web, and external-adapter patterns graduate into OS-native AgentOS capabilities instead of expanding browser/app mediation as the default product motion.
   - Exit condition: completed by `docs/architecture/capability-graduation-registry.md`, `docs/architecture/capability-graduation-registry.json`, `scripts/smoke_capability_graduation_registry.sh`, golden runner integration through `scripts/phase2_golden_demo_runner.py`, and README/TASKS/roadmap/docs index linkage.
@@ -382,7 +382,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blockers: live app/browser/credential proof still requires explicit observed evidence; AgentOS does not claim production app ecosystem replacement.
   - Advances: capability ownership, mediation cost reduction, OS-native runtime defaults, runtime proof truthfulness.
 
-- `observed-proof-intake-and-blocker-handoff-epic` — [EPIC: Observed proof intake and blocker handoff](https://github.com/Jongtae/agentos/issues/135)
+- `observed-proof-intake-and-blocker-handoff-epic` — [EPIC: Observed proof intake and blocker handoff](https://github.com/Jongtae/agentos-os-prototype/issues/135)
   - Milestone: Phase 2: Local-first Codex runtime loop
   - Completion goal: define how AgentOS accepts human-observed proof for live credentials, VM/ISO, release, browser, and boot-chain proof without mixing unobserved claims into automated smoke proof.
   - Exit condition: complete when observed proof intake rules, evidence redaction rules, blocker categories, promotion gates, validator behavior, and runtime status visibility are documented and smoke-tested, and future live credential, VM/ISO, release, browser, and boot-chain proof can attach evidence without claiming unobserved proof.
@@ -391,7 +391,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blockers: real Gmail/Calendar OAuth credentials, observed VM/ISO runs, release artifacts/signatures, live browser acceptance, Secure Boot, TPM measured boot, PCR/event-log, IMA, and hardware attestation proof remain unclaimed until a tester or maintainer attaches sanitized observed evidence.
   - Advances: runtime proof truthfulness, recovery, capability ownership, OS-native runtime defaults.
 
-- `verified-boot-attestation-proof-boundary-epic` — [EPIC: Verified boot and attestation proof boundary](https://github.com/Jongtae/agentos/issues/125)
+- `verified-boot-attestation-proof-boundary-epic` — [EPIC: Verified boot and attestation proof boundary](https://github.com/Jongtae/agentos-os-prototype/issues/125)
   - Milestone: Phase 2: Local-first Codex runtime loop
   - Completion goal: define the AgentOS verified boot and attestation proof boundary so Secure Boot, TPM measured boot, event logs, PCR evidence, and Linux runtime integrity signals become explicit future proof surfaces without falsely claiming hardware-backed trust today.
   - Exit condition: completed by `docs/architecture/verified-boot-attestation-proof-boundary.md`, `scripts/smoke_verified_boot_attestation_boundary.sh`, golden runner integration through `scripts/phase2_golden_demo_runner.py`, and `phase2-run --message "status"` attaching `agentos-verified-boot-attestation-nonclaim.v1` while keeping Secure Boot, TPM measured boot, PCR/event-log, IMA, and hardware attestation proof unclaimed.
@@ -400,7 +400,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blocker: real Secure Boot, TPM measured boot, PCR/event-log, Linux IMA, and hardware-backed attestation proof remain unclaimed until observed VM or hardware evidence exists.
   - Advances: runtime proof truthfulness, OS-native runtime defaults, recovery, capability ownership.
 
-- `inbox-capability-ownership-boundary-epic` — [EPIC: Inbox capability ownership boundary](https://github.com/Jongtae/agentos/issues/116)
+- `inbox-capability-ownership-boundary-epic` — [EPIC: Inbox capability ownership boundary](https://github.com/Jongtae/agentos-os-prototype/issues/116)
   - Milestone: Phase 2: Local-first Codex runtime loop
   - Completion goal: define the inbox capability ownership boundary so Gmail, Calendar, Maildir, fixture, and future inbox-like adapters converge through an OS-native, read-first, user-owned intake substrate.
   - Exit condition: completed by `docs/architecture/inbox-capability-ownership-boundary.md`, `scripts/smoke_inbox_capability_ownership_boundary.sh`, golden runner integration through `scripts/phase2_golden_demo_runner.py`, and `phase2-run --message "status"` attaching the inbox routing/ownership contract artifact while keeping live inbox OAuth and mutation proof unclaimed.
@@ -409,7 +409,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blocker: live Gmail, Calendar, and broader inbox OAuth proof remain unclaimed until explicit tester credentials and observed read-only runs exist; external send/delete/archive mutations remain blocked until a later confirmation model exists.
   - Advances: capability ownership, mediation cost reduction, OS-native runtime defaults, runtime proof truthfulness.
 
-- `distribution-packaging-proof-boundary-epic` — [EPIC: Distribution packaging proof boundary](https://github.com/Jongtae/agentos/issues/107)
+- `distribution-packaging-proof-boundary-epic` — [EPIC: Distribution packaging proof boundary](https://github.com/Jongtae/agentos-os-prototype/issues/107)
   - Milestone: Phase 2: Local-first Codex runtime loop
   - Completion goal: define the distribution packaging proof boundary for safe local checks, release artifact requirements, signing/checksum expectations, VM/ISO blockers, and explicit non-claims.
   - Exit condition: completed by `docs/operations/distribution-packaging-proof-boundary.md`, `scripts/smoke_distribution_packaging_boundary.sh`, `scripts/release_manifest_checksum_preflight.py`, `scripts/smoke_release_manifest_checksum_preflight.sh`, and golden runner integration through `scripts/phase2_golden_demo_runner.py`.
@@ -418,7 +418,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blocker: real release artifacts, signing/checksum publication, installer readiness, and observed VM/ISO proof remain unclaimed until maintainers provide artifacts and a VM run is observed.
   - Advances: runtime proof truthfulness, distribution packaging, OS-native runtime defaults.
 
-- `public-preview-operations-epic` — [EPIC: Public preview operations](https://github.com/Jongtae/agentos/issues/100)
+- `public-preview-operations-epic` — [EPIC: Public preview operations](https://github.com/Jongtae/agentos-os-prototype/issues/100)
   - Milestone: Phase 2: Local-first Codex runtime loop
   - Completion goal: define the public preview operating contract for Docker/local runtime testing, manual proof blockers, release non-claims, and safe preview promotion.
   - Exit condition: completed by `docs/operations/public-preview-operations.md`, `scripts/smoke_public_preview_operations.sh`, and golden runner integration through `scripts/phase2_golden_demo_runner.py`.
@@ -427,7 +427,7 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blocker: live Gmail, Calendar, Telegram, browser, updater, VM/ISO, and release distribution proof remain unclaimed until observed with explicit tester input or release evidence.
   - Advances: runtime proof truthfulness, public preview operations, mediation cost reduction, OS-native runtime defaults.
 
-- `browser-fallback-capability-boundary-epic` — [EPIC: Browser fallback capability boundary](https://github.com/Jongtae/agentos/issues/89)
+- `browser-fallback-capability-boundary-epic` — [EPIC: Browser fallback capability boundary](https://github.com/Jongtae/agentos-os-prototype/issues/89)
   - Milestone: Phase 2: Local-first Codex runtime loop
   - Completion goal: define when browser automation is allowed as a fallback and how AgentOS moves common web/app access patterns toward internal, OS-native capabilities.
   - Exit condition: completed by the documented and smoke-tested `agentos-phase2-browser-fallback-contract.v1`, plus `phase2-run` integration that records browser fallback artifacts while keeping live browser proof unclaimed.
@@ -436,14 +436,14 @@ The detailed Phase 2 roadmap is tracked in
   - Residual blocker: observed live browser fallback proof remains unclaimed until a separate user-approved browser acceptance run exists; repeated web/app patterns should graduate into internal capabilities before broad browser dependence.
   - Advances: mediation cost reduction, capability ownership, OS-native runtime defaults, runtime proof truthfulness.
 
-- `capability-permission-boundary-epic` — [EPIC: Capability permission boundary](https://github.com/Jongtae/agentos/issues/66)
+- `capability-permission-boundary-epic` — [EPIC: Capability permission boundary](https://github.com/Jongtae/agentos-os-prototype/issues/66)
   - Milestone: Phase 2: Local-first Codex runtime loop
   - Completion goal: define how AgentOS declares, approves, denies, narrates, and records OS-native capability access before expanding live adapters.
   - Exit condition: completed by contract docs, public registry, smoke-enforced outcomes, `phase2-run` output, and user-owned records across P2-33 through P2-36.
   - Closed issue: #66.
   - Advances: capability ownership, OS-native runtime defaults, runtime proof truthfulness.
 
-- `updater-hardening-epic` — [EPIC: Updater hardening](https://github.com/Jongtae/agentos/issues/80)
+- `updater-hardening-epic` — [EPIC: Updater hardening](https://github.com/Jongtae/agentos-os-prototype/issues/80)
   - Milestone: Phase 2: Local-first Codex runtime loop
   - Completion goal: define the updater hardening path that preserves managed runtime continuity and truthful rollback/recovery proof.
   - Exit condition: completed by `agentos-phase2-updater-state.v1`, focused updater state smoke, `phase2-run` lifecycle integration, and explicit live-updater/VM proof blockers across P2-39 through P2-40.
