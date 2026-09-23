@@ -2,6 +2,8 @@
 
 [English](README.md) | [한국어](README.ko.md) | [日本語](README.ja.md) | [中文](README.zh.md)
 
+> **仓库迁移说明：** 此仓库是原来的 bootable/headless OS 原型。当前主要的 **Personal AgentOS** 项目位于 [Jongtae/agentos](https://github.com/Jongtae/agentos)。
+
 **一个可启动、headless-first 的 OS 原型，其启动后的默认界面是 agent-managed runtime。**
 
 AgentOS 探索这样一个问题：如果操作系统启动后的默认界面不是充满应用图标的传统桌面，而是一个 managed agent runtime，OS 会是什么样子？
@@ -75,8 +77,8 @@ Phase 1 证明了一个范围很窄但真实可运行的 OS-native loop：
 构建本地 ISO：
 
 ```bash
-git clone git@github.com:Jongtae/agentos.git
-cd agentos
+git clone git@github.com:Jongtae/agentos-os-prototype.git
+cd agentos-os-prototype
 ./scripts/build_latest_agentos_iso.sh
 ```
 
@@ -115,8 +117,8 @@ Boot
 当你想在不启动 VM 的情况下检查或开发 runtime 时，使用这个路径：
 
 ```bash
-git clone git@github.com:Jongtae/agentos.git
-cd agentos
+git clone git@github.com:Jongtae/agentos-os-prototype.git
+cd agentos-os-prototype
 cp .env.example .env
 python3 src/main.py --doctor
 python3 src/main.py --no-tui
